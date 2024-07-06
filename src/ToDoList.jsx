@@ -47,7 +47,7 @@ function ToDoList() {
         <div>
         <header>
         <figure>
-            <img onClick={openGithub} src="src\assets\icon.svg"  />
+            <img onClick={openGithub} src="src\assets\favicon.svg"  />
         </figure>
         <nav>
             <ul>
