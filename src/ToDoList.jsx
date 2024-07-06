@@ -1,4 +1,5 @@
 import react, {useState} from "react"
+import favicon from "/src/assets/favicon.svg"
 
 function ToDoList() {
 
@@ -47,7 +48,7 @@ function ToDoList() {
         <div>
         <header>
         <figure>
-            <img onClick={openGithub} src="src\assets\favicon.svg"  />
+            <img onClick={openGithub} src={favicon}  />
         </figure>
         <nav>
             <ul>
